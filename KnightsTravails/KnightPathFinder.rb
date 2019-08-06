@@ -52,11 +52,9 @@ class KnightPathFinder
         end
     end
 
-
     def find_path(target)
         @root_node.dfs(target)
     end
-
 
     def trace_path_back(target)
         target_node = find_path(target)
